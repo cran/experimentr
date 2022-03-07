@@ -1,0 +1,12 @@
+#' Data from "Does Party Trump Ideology? Disentangling Party and Ideology in America"
+#'
+#' This dataset is used in the exercises of Chapter 4 from the textbook.
+#'
+#' @format A data frame with 1300 rows and 3 variables:
+#' \describe{
+#'   \item{Support}{Outcome variable denoting support. 1 = support policy, 0 = do not support policy}
+#'   \item{condition}{Condition indicator. 1 = liberal Trump, 2 = conservative Trump, 3 = GOP Leaders, 5 = control Republican}
+#'   \item{republican}{Pre-treatment covariate denoting denoting partisanship. 1 = Republican, 0 = Not Republican}
+#' }
+#' @source BARBER, MICHAEL, and JEREMY C. POPE. “Does Party Trump Ideology? Disentangling Party and Ideology in America.” American Political Science Review, vol. 113, no. 1, 2019, pp. 38–54., doi:10.1017/S0003055418000795.
+"barber"
